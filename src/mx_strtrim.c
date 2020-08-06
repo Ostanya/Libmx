@@ -9,9 +9,7 @@ char *mx_strtrim(const char *str) {
     }   
     while((mx_isspace(*s))) {
         s++;
-    }
-
-   //delete from the end of str 
+    } 
     int k = mx_strlen(s);
     while((mx_isspace(s[k-1]))) {
         k--;

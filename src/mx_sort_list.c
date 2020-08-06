@@ -1,4 +1,5 @@
 #include "libmx.h"
+
 t_list *mx_sort_list(t_list *lst, bool (*cmp)(void *a, void *b)) {
     t_list *list1;
     t_list *list2;

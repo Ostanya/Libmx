@@ -12,11 +12,3 @@ void mx_str_reverse(char *s) {
     }
     s[j] = '\0';
 }
-
-//#include <stdio.h>
-//int main() {
-//    char str[] = "game over";
-//    mx_str_reverse(str);
-//    printf("%s\n", str);
-//    return 0;
-//}

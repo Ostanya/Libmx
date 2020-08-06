@@ -6,11 +6,8 @@ char *mx_strstr(const char *haystack, const char *needle) {
 
     if (!*needle)
         return ((char*)haystack);
-    while (haystack[i] != '\0')
-    {
-        s = 0;
-        while (haystack[i + s] == needle[s])
-        {
+    while (haystack[i] != '\0') {
+        while (haystack[i + s] == needle[s]) {
             if (needle[s + 1] == '\0')
                 return ((char*)haystack + i);
             s++;
